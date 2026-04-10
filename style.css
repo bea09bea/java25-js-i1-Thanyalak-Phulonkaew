@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+.no-show{
+     display: none !important;
+}
+
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+h1 {
+     margin-top: 20px;
+     font-size: 50px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body > p {
+     font-size: 30px;
+     margin-top: 30px;
+     margin-bottom: 40px;
+}
+
+p {
+     font-size: 20px;
+}
+
+form {
+     padding: 5px;
+     display: flex;
+     flex-direction: column;
+}
+
+form > input {
+     height: 50px;
+     width: 300px;
+     background-color: rgb(220, 218, 216);
+     font-size: 25px;
+     padding: 20px;
+     color: black;
+     border-radius: 10px;
+}
+
+form > button {
+     margin-top: 40px;
+     height: 40px;
+     border-radius: 10px;
+     font-size: 26px;
+     background-color: lightgreen;
+     font-weight: 600;
+     cursor: pointer;
+}
+
+h3 {
+     font-size: 30px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-bottom: 10px;
+}
+
+img {
+     width: 100px;
+     height: 70px;
+}
+
+.VS {
+     display: flex;
+     margin-bottom: 20px;
+}
+
+.VS > div:first-child {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.VS > div {
+     flex: auto;
+}
+
+.VS > div:first-child > img {
+     border-radius: 100%;
+     border: 1px solid black;
+     margin-bottom: 10px;
+}
+
+.VS > div:last-child > img {
+     border-radius: 100%;
+     border: 1px solid black;
+     margin-bottom: 10px;
+}
+
+.VS > div:last-child {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+h2 {
+     font-size: 35px;
+     margin-bottom: 20px;
+     font-weight: 800;
+}
+
+.choose{
+     justify-self: center;
+}
+
+.images {
+     display: flex;
+     padding: auto;
+}
+
+.images > img {
+     border-radius: 10px;
+     width: 190px;
+     height: 130px;
+}
+
+.images > img:hover {
+     opacity: 0.4;
+     cursor: pointer;
+}
+
+.scoreboard {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 40px;
+}
+
+.scoreboard > div{
+     display: flex;
+     width: 300px;
+}
+
+.yourScore, .draw, .computer {
+     display: flex;
+     flex-direction: column;
+     flex: auto;
+     align-items: center;
+}
+
+.yourScore > p, .draw > p, .computer > p {
+     font-size: 30px;
+}
+
+.yourScore > p:last-child {
+     color: lightgreen;
+}
+
+.draw > p:last-child {
+     color: rgb(239, 190, 55);
+}
+
+.computer > p:last-child {
+     color: lightcoral;
+}
+
+#restart {
+     height: 50px;
+     width: 100px;
+     margin-top: 20px;
+     border-radius: 10px;
+     background-color: rgb(201, 202, 194);
+     font-size: 20px;
+     font-weight: 700;
+}
+
+#restart:hover {
+     background-color: rgb(171, 171, 170);
+     cursor: pointer;
+}

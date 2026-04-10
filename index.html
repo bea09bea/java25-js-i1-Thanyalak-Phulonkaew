@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Sten Sax Påse</title>
+     <link rel="stylesheet" href="./style.css">
+     <script src="./script.js" defer></script>
+</head>
+
+<body>
+     <h1>Sten Sax Påse</h1>
+     <p>Regler: Först till 3 poäng vinner spelet</p>
+
+     <form>
+          <h3>Ditt namn: </h3>
+          <input type="text" name="username" placeholder="Bea">
+          <button>Starta</button>
+     </form>
+
+     <div class="no-show">
+          <div class="VS">
+               <div>
+                    <img src="./img/user.jpg" alt="user" width="500" height="600">
+                    <p id="username">Namn</p>
+               </div>
+               <h2>VS</h2>
+               <div>
+                    <img src="./img/computer.jpg" alt="computer" width="500" height="600">
+                    <p>Dator</p>
+               </div>
+          </div> 
+
+          <h2 class="choose">Gör ditt val!</h2>
+          <div class="images">
+               <img src="./img/rock.jpg" alt="Rock" width="500" height="600" id="rock">
+               <img src="./img/paper.jpg" alt="Paper" width="500" height="600" id="paper">
+               <img src="./img/scissors.jpg" alt="Scissors" width="500" height="600" id="scissors">
+          </div>
+
+          <div class="scoreboard">
+               <h3>Poäng</h3>
+
+               <div>
+                    <div class="yourScore">
+                         <p>Du</p>
+                         <p id="userP">0</p>
+                    </div>
+
+                    <div class="draw">
+                         <p>Lika</p>
+                         <p id="drawP">0</p>
+                    </div>
+
+                    <div class="computer">
+                         <p>Dator</p>
+                         <p id="pcP">0</p>
+                    </div>
+               </div>
+               
+          </div>
+     </div>
+
+     <button class="no-show" id="restart">Restart</button>
+</body>
+</html>
