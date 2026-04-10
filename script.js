@@ -91,6 +91,7 @@ function restart() {
      computerPoints = 0;
 
      message.innerText = 'Gör ditt val!';
+     message.style.color = 'black';
      rockpaperscissors.classList.remove('no-show');
      userP.innerText = 0;
      drawP.innerText = 0;
